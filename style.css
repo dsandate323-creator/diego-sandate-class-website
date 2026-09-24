@@ -2,10 +2,11 @@ body {background-color:rgb(150, 0, 163); font-family: Arial, sans-serif; margin:
 h1 {color:aqua; font-size: 48px; text-align: center;}
 h2 {color:aqua; border-bottom: 2px solid purple;}
 p {font-size: 25px; line-height: 2; text-align: center}
-a {color:aqua}
-img {width: 800px; border: 20px aqua; border-radius: 1px;}
+p {color:aqua}
+img {width: 700px; border: 20px aqua; border-radius: 1px; }
+.flex-container {display: flex; justify-content: center; align-items: center;}
 li {color:aqua; margin: 10px;}
 #about {background-color:black; border: 2px solid yellow: padding: 20px;}
 div {2px solid black; margin-bottom: 20px; padding: 20px;}
 #page-title {color:aqua; font-size: 60px;}
-.highlight {background-color:aqua; color:blue; padding: 10px;}
+.highlight {background-color:aqua; color:blue; padding: 10px; width: 900px;}
