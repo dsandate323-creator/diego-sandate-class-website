@@ -1,0 +1,7 @@
+body {margin: 0; font-family: Arial, sans-serif;}
+.header {background-color: black; padding: 20px; text-align: center;}
+.middle {display: flex; }
+.left-sidebar {background-color: rgb(132, 0, 255); padding: 20px; flex: 1;}
+.main-content {background-color: rgb(234, 0, 255); padding: 20px; flex: 3;}
+.right-sidebar {background-color:rgb(43, 144, 226); padding: 20px; flex: 1;}
+.footer {background-color: rgb(0, 81, 255); padding: 20px; text-align: center;}
