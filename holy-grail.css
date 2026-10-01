@@ -1,8 +1,5 @@
- 
-    box-sizing: border-box; 
-    margin: 0; 
-    padding: 0; 
-body {font-family: Arial, sans-serif;}
+* {box-sizing: border-box; margin: 0; padding: 0;}
+body {font-family: Arial, Helvetica, sans-serif;}
 .page { display: flex; flex-direction: column; min-height: 100vh; text-align: center; font-weight: bold;}
 .header, .footer {background-color: rgb(153, 0, 255); padding: 25px; }
 .middle {display: flex; flex: 1;}
