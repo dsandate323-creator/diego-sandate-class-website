@@ -1,7 +1,9 @@
-body {margin: 0; font-family: Arial, sans-serif;}
-.header {background-color: black; padding: 20px; text-align: center;}
-.middle {display: flex; }
-.left-sidebar {background-color: rgb(132, 0, 255); padding: 20px; flex: 1;}
-.main-content {background-color: rgb(234, 0, 255); padding: 20px; flex: 3;}
-.right-sidebar {background-color:rgb(43, 144, 226); padding: 20px; flex: 1;}
-.footer {background-color: rgb(0, 81, 255); padding: 20px; text-align: center;}
+* {box-sizing: border-box; margin: 0; padding: 0;}
+body {font-family: Arial, Helvetica, sans-serif;}
+.page { display: flex; flex-direction: column; min-height: 100vh; text-align: center; font-weight: bold;}
+.header, .footer {background-color: rgb(153, 0, 255); padding: 25px; }
+.middle {display: flex; flex: 1;}
+.left-sidebar {background-color: rgb(170, 0, 255); padding: 20px; flex: 0 0 200px;}
+.right-sidebar {background-color: rgb(0, 204, 255); flex: 0 0 200px;}
+.main-content {flex: 1; background-color: rgb(0, 136, 255); padding: 20px; flex: 1px;}
+.footer {background-color: blue; padding: 20px;}
