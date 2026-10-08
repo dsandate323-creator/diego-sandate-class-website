@@ -29,4 +29,5 @@ passwordInput.addEventListener('input', function() {
         feedbackText.innerText = 'Status: Strong 💪 🟢';
         feedbackText.style.color = '#2ecc71';
     }
+    
     });
