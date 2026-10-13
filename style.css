@@ -4,7 +4,9 @@ h2 {color:aqua; border-bottom: 2px solid purple;}
 p {font-size: 25px; line-height: 2; text-align: center}
 p {color:aqua}
 img {width: 700px; border: 20px aqua; border-radius: 1px; }
+img {width: 500px; border: 20px aqua; border-radius: 1px;}
 .flex-container {display: flex; justify-content: center; align-items: center;}
+.flex-container {display: flex; flex-direction: row; gap: 40px; /* Increase or decrease this number to change the space */}
 li {color:aqua; margin: 10px;}
 #about {background-color:black; border: 2px solid yellow: padding: 20px;}
 div {2px solid black; margin-bottom: 20px; padding: 20px;}
